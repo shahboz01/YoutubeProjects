@@ -21,7 +21,7 @@ def display_text():
    label.configure(text="The video downloaded:)")
    yt = YouTube(link)
    y_d = yt.streams.get_highest_resolution()
-   y_d.download('C:/Users/shahboz/Videos/youtube')
+   y_d.download('Здесь нужно указать путь в своём пк куда вы хотите загрузить видео')
 button = tkinter.Button(win,text="Download",width= 20,command= display_text, 
                         bg="green",activebackground="grey")
 button.grid(row=5, column=1)
